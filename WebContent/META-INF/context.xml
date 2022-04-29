@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource
+		auth="Container"
+		type="javax.sql.DataSource"
+		name="jdbc/db01"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://Localhost:3306/db01?useSSL=false" 
+		username="ezen01"
+		password="1234"
+		maxWaitMillis="5000"
+	/>
+</Context>
